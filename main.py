@@ -27,8 +27,8 @@ one_call_params = {
 # --------------------- twilio env variables ------------------------- #
 account_sid = os.environ['TWILIO_SID']
 auth_token = os.environ['TWILIO_API_KEY']
-steve_phone_number = "+254729666912"
-twilio_phone_number = "+12398936281"
+steve_phone_number = "+XXXXXXXXXX"
+twilio_phone_number = "+XXXXXXXXXX"
 
 # --------------------- check for rain & send sms ------------------------- #
 response = requests.get(url=one_call_api, params=one_call_params)
